@@ -25,6 +25,7 @@ micronaut {
 }
 
 dependencies {
+    compileOnly("org.graalvm.nativeimage:svm")
     implementation("io.micronaut:micronaut-validation")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")

@@ -1,3 +1,8 @@
 micronaut:
   application:
-    name: corvusInvestment
+    name: corvus-investment
+
+endpoints:
+  all:
+    enabled: true
+    sensitive: false
